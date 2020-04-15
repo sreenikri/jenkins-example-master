@@ -23,5 +23,12 @@ pipeline {
                
             }
         }
+         stage ('Cleanup') {
+            steps {
+               echo 'Cleaning the application'
+               
+            }
+        }
+
     }
 }
